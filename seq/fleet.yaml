@@ -1,0 +1,20 @@
+defaultNamespace: monitoring
+helm:
+  values:
+    acceptEULA: "Y"
+    persistence:
+      enabled: 'true'
+      size: 256Gi
+    resources:
+      limits:
+        cpu: 2500m
+        memory: 25Gi
+      requests:
+        cpu: 1000m
+    memory: 15Gi
+  repo: https://charts.helm.sh/stable
+  chart: seq
+  releaseName: seq
+  version: 2.3.0
+
+
