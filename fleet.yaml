@@ -1,1 +1,4 @@
 defaultNamespace: kube-system
+helm:
+  chart: foo
+  repo: https://helm.axe.al
