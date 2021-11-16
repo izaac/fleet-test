@@ -1,4 +1,4 @@
-defaultNamespace: kube-system
+defaultNamespace: ingress-nginx
 helm:
-  chart: foo
-  repo: https://helm.axe.al
+  chart: ingress-nginx
+  repo: https://kubernetes.github.io/ingress-nginx
