@@ -1,6 +1,6 @@
-defaultNamespace: logging
+defaultNamespace: oauth2-proxy
 helm:
-  repo: https://grafana.github.io/helm-charts
-  chart: promtail
-  releaseName: promtail
-  version: 3.8.1
+  repo: https://charts.helm.sh/stable
+  chart: oauth2-proxy
+  releaseName: oauth2-proxy
+  version: 3.2.0
