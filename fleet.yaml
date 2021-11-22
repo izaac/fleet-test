@@ -1,6 +1,6 @@
-defaultNamespace: cert-manager
+defaultNamespace: logging
 helm:
-  repo: https://charts.jetstack.io
-  chart: cert-manager
-  releaseName: cert-manager
-  version: v1.6.0
+  repo: https://grafana.github.io/helm-charts
+  chart: promtail
+  releaseName: promtail
+  version: 3.8.1
