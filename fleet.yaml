@@ -4,3 +4,14 @@ helm:
   chart: promtail
   releaseName: promtail
   version: 3.8.1
+targetCustomizations:
+- name: digitalocean-group
+  clusterGroup: digitalocean-group
+  helm:
+    valuesFiles:
+      - values-do.yaml
+- name: aws-group
+  clusterGroup: aws-group
+  helm:
+    valuesFiles:
+      - values-aws.yaml
