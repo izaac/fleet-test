@@ -1,6 +1,6 @@
 defaultNamespace: cattle-gatekeeper-system
 helm:
   repo: https://charts.rancher.io
-  chart: rancher-gatekeeper
-  releaseName: rancher-gatekeeper
+  chart: rancher-gatekeeper-crd
+  releaseName: rancher-gatekeeper-crd
   version: 100.0.1+up3.6.0
