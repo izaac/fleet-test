@@ -1,6 +1,6 @@
-defaultNamespace: ingress-nginx
+defaultNamespace: cattle-gatekeeper-system
 helm:
-  repo: https://kubernetes.github.io/ingress-nginx
-  chart: ingress-nginx
-  releaseName: ingress-nginx
-  version: 4.0.3
+  repo: charts.rancher.io
+  chart: rancher-gatekeeper
+  releaseName: rancher-gatekeeper
+  version: 100.0.1+up3.6.0
