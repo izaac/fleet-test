@@ -1,5 +1,5 @@
 defaultNamespace: default
 helm:
-  chart: ./chart
-  releaseName: test-chart
-  version: 0.0.1
+  chart: ./rancher-monitoring
+  releaseName: broken-monitoring
+  version: 9.4.203
