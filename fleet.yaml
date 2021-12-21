@@ -1,3 +1,4 @@
+defaultNamespace: cert-manager
 diff:
   comparePatches:
   # Ignored in Fleet, since it causes a "modified" state. See https://fleet.rancher.io/bundle-diffs/
