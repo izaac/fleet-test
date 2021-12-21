@@ -1,0 +1,9 @@
+diff:
+  comparePatches:
+  # Ignored in Fleet, since it causes a "modified" state. See https://fleet.rancher.io/bundle-diffs/
+  - apiVersion: apps/v1
+    kind: Deployment
+    name: nginx-deployment
+    namespace: default
+    operations:
+    - {"op": "remove", "path":"/spec/replicas"}
