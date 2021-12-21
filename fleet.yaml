@@ -4,5 +4,6 @@ diff:
   - apiVersion: cert-manager.io/v1
     kind: ClusterIssuer
     name: vault-issuer
+    namespace: cert-manager
     operations:
     - {"op":"remove", "path":"/spec/vault/server"}
