@@ -1,5 +1,0 @@
-defaultNamespace: default
-helm:
-  chart: ./rancher-monitoring
-  releaseName: broken-monitoring
-  version: 9.4.203
