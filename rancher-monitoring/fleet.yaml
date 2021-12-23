@@ -10,4 +10,4 @@ helm:
       enabled: false
 
 dependsOn:
-- monitoring-rancher-monitoring-crd
+- name: monitoring-rancher-monitoring-crd
