@@ -1,7 +1,7 @@
-defaultNamespace: logging
+defaultNamespace: cattle-monitoring-system
 
 helm:
-  chart: promtail
-  repo: https://grafana.github.io/helm-charts
-  releaseName: promtail
-  version: 3.8.1
+  chart: rancher-monitoring
+  repo: https://charts.rancher.io
+  releaseName: rancher-monitoring
+  version: 100.1.0+up19.0.3
