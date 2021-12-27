@@ -1,8 +1,0 @@
-defaultNamespace: cattle-monitoring-system
-
-helm:
-  chart: rancher-monitoring-crd
-  repo: https://charts.rancher.io
-  releaseName: rancher-monitoring-crd
-  version: 100.1.0+up19.0.3
-
