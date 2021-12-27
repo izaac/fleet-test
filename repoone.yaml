@@ -1,0 +1,16 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: repoone
+  namespace: fleet-default
+spec:
+  branch: 320229-one
+  insecureSkipTLSVerify: false
+  repo: https://github.com/axeal/fleet-test.git
+  targets:
+    - clusterSelector:
+        matchExpressions:
+          - key: provider.cattle.io
+            operator: NotIn
+            values:
+              - harvester

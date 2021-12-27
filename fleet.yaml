@@ -1,7 +1,0 @@
-defaultNamespace: logging
-
-helm:
-  chart: promtail
-  repo: https://grafana.github.io/helm-charts
-  releaseName: promtail
-  version: 3.8.1
