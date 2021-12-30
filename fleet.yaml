@@ -1,5 +1,5 @@
-defaultNamespace: nginx-one
+defaultNamespace: nginx-two
 helm:
   chart: ./nginx
-  releaseName: nginx-one
+  releaseName: nginx-two
   version: 0.1.0
