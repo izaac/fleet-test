@@ -1,17 +1,5 @@
-defaultNamespace: nginx-all
+defaultNamespace: nginx-one
 helm:
   chart: ./nginx
-  releaseName: nginx-all
+  releaseName: nginx-one
   version: 0.1.0
-
-targetCustomizations:
-  - name: aws
-    clusterGroup: aws
-    helm:
-      valuesFiles:
-        - values-aws.yaml
-  - name: vsphere
-    clusterGroup: vsphere
-    helm:
-      valuesFiles:
-        - values-vsphere.yaml
