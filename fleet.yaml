@@ -6,5 +6,5 @@ diff:
     name: nginx-deployment
     namespace: default
     operations:
-    - {"op": "remove", "path":"/spec/replicas"}
+      #    - {"op": "remove", "path":"/spec/replicas"}
     - {"op": "remove", "path":"/spec/revisionHistoryLimit"}
